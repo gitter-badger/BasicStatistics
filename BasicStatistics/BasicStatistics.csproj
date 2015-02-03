@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Statistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tests\StatisticsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -8,6 +8,9 @@ namespace BasicStatistics
 {
     public class Statistics
     {
-
-    }
+		internal static double Sum()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }
