@@ -38,5 +38,13 @@ namespace BasicStatistics
 
 			Sum += number;
 		}
+
+		/// <summary>
+		/// Returns the average in the list of numbers.
+		/// </summary>
+		public double Average
+		{
+			get { return Sum / Count; }
+		}
 	}
 }
