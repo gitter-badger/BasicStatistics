@@ -50,14 +50,17 @@ namespace BasicStatistics.Tests
 		#endregion
 
 		[Test]
-		public void FirstTest()
+		public void AddNumber_ShouldAddGivenNumberToNumbersList()
 		{
 			// Step 1 - Arrange
+			Statistics myStatistics = new Statistics();
 
 			// Step 2 - Act
+			double num = 0;
+			myStatistics.AddNumber(num);
 
 			// Step 3 - Assert  
-			Assert.IsTrue(true);
+			Assert.IsTrue(myStatistics.numbers.Contains(num));
 		}
 	}
 }
