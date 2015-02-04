@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/AJ-Santos/BasicStatistics.svg?branch=master)](https://travis-ci.org/AJ-Santos/BasicStatistics)
+
 # BasicStatistics
 A basic statistics library for simple calculations.
 
