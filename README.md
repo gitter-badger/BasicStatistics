@@ -1,7 +1,11 @@
 [![Build Status](https://travis-ci.org/AJ-Santos/BasicStatistics.svg?branch=master)](https://travis-ci.org/AJ-Santos/BasicStatistics)
 
 # BasicStatistics
-A basic statistics library for simple calculations.
-
-# About
-I started learning more about statistics in school and I feel that the best way to see if I understand the material is if I can create methods that would complete the different Statistics formulas. If you see one missing it's probably because I'm still learning about it or haven't been able to create a method for it.
+## What is BasicStatistics?
+BasicStatistics is a statistics analysis library for use in c# projects.
+## How can I use BasicStatistics?
+1. Fork this repository.
+2. Clone the repository to your computer.
+3. Open the solution in Visual Studio and build the project using the Release option.
+4. Create your project and add a reference to BasicStatistics by navigating to [Path_To_BasicStatistics]/bin/release and selecting BasicStatistics.dll.
+5. Write your code and use BasicStatistics!
