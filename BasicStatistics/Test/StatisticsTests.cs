@@ -49,6 +49,10 @@ namespace BasicStatistics.Tests
 		}
 		#endregion
 
+		/// <summary>
+		/// This test case is ensure that if a number is passed to the AddNumber method, it is added to the
+		/// List numbers.
+		/// </summary>
 		[Test]
 		public void AddNumber_ShouldAddGivenNumberToNumbersList()
 		{
@@ -63,6 +67,9 @@ namespace BasicStatistics.Tests
 			Assert.IsTrue(myStatistics.numbers.Contains(num));
 		}
 
+		/// <summary>
+		/// This test case ensures that once the number is added to the List numbers, the value is added to the Sum of numbers.
+		/// </summary>
 		[Test]
 		public void AddNumber_ShouldAddGivenNumberToSum()
 		{
@@ -73,5 +80,14 @@ namespace BasicStatistics.Tests
 
 			Assert.AreEqual(1, myStatistics.Sum);
 		}
+
+		///// <summary>
+		///// 
+		///// </summary>
+		//[Test]
+		//public void AddNumber_ShouldNotAddZero()
+		//{
+
+		//}
 	}
 }
