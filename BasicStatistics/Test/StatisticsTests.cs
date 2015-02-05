@@ -50,7 +50,7 @@ namespace BasicStatistics.Tests
 		#endregion
 
 		/// <summary>
-		/// This test case is ensure that if a number is passed to the AddNumber method, it is added to the
+		/// This test case ensures that if a number is passed to the AddNumber method, it is added to the
 		/// List numbers.
 		/// </summary>
 		[Test]
