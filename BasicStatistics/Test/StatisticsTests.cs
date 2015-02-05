@@ -62,5 +62,16 @@ namespace BasicStatistics.Tests
 			// Step 3 - Assert  
 			Assert.IsTrue(myStatistics.numbers.Contains(num));
 		}
+
+		[Test]
+		public void AddNumber_ShouldAddGivenNumberToSum()
+		{
+			Statistics myStatistics = new Statistics();
+
+			double num = 1;
+			myStatistics.AddNumber(num);
+
+			Assert.AreEqual(1, myStatistics.Sum);
+		}
 	}
 }
